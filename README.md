@@ -25,7 +25,7 @@ Create a developer-friendly virtual Xiaohong device with a 240×240 framebuffer,
 
 ## Development
 
-The first development branch will add a Rust workspace and project docs. See upcoming pull requests for executable commands.
+After merging the M0 pull request:\n\n```sh\ncargo fmt --all -- --check\ncargo clippy --workspace --all-targets -- -D warnings\ncargo test --workspace\ncargo run -p xh-cli\n```\n\nSee `docs/ARCHITECTURE.md` and `docs/TODO.md` for technical scope and next steps.
 
 ## Related work
 
